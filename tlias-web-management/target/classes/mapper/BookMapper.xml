@@ -1,0 +1,21 @@
+<!--<?xml version="1.0" encoding="UTF-8" ?>-->
+<!--<!DOCTYPE mapper-->
+<!--        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"-->
+<!--        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">-->
+<!--<mapper namespace="com.itheima.mapper.BookMapper">-->
+<!--    &lt;!&ndash;条件查询&ndash;&gt;-->
+<!--    <select id="selectByNameByType" resultType="com.itheima.pojo.Book">-->
+<!--        select *-->
+<!--        from book-->
+<!--        <where>-->
+<!--            <if test="name != null and name != ''">-->
+<!--                name like concat('%',#{name},'%')-->
+<!--            </if>-->
+<!--            <if test="type != null">-->
+<!--                and type = #{type}-->
+<!--            </if>-->
+<!--        </where>-->
+<!--        order by id-->
+<!--    </select>-->
+
+<!--</mapper>-->
